@@ -6,7 +6,8 @@ using namespace std;
 int d;
 vector<int> src;
 
-vector<pair<int, int>> swaps(vector<int> num) {
+vector<pair<int, int>> swaps(vector<int> num)
+{
     vector<pair<int, int>> res;
     for (int i = 0; i < d-1; i++) {
         int low = min(num[i], num[i+1]);
