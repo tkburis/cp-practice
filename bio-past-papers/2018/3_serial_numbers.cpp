@@ -29,7 +29,6 @@ vector<pair<int, int>> swaps(vector<int> num)
     return res;
 }
 
-// Doesn't make the last testcase by a second
 void solve()
 {
     map<vector<int>, int> distances;
@@ -44,7 +43,7 @@ void solve()
         for (auto poss_swap : swaps(curr_node)) {
             vector<int> working_copy(curr_node.begin(), curr_node.end());
             swap(working_copy[poss_swap.first], working_copy[poss_swap.second]);
-            if (find(visited.begin(), visited.end(), working_copy) == visited.end()) {
+            if (visited.find(working_copy) == visited.end()) {
                 q.push(working_copy);
                 distances[working_copy] = max(distances[working_copy], curr_distance + 1);
             }
