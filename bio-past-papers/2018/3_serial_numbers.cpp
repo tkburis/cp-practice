@@ -45,7 +45,7 @@ void solve()
             swap(working_copy[poss_swap.first], working_copy[poss_swap.second]);
             if (visited.find(working_copy) == visited.end()) {
                 q.push(working_copy);
-                distances[working_copy] = max(distances[working_copy], curr_distance + 1);
+                distances[working_copy] = curr_distance + 1;
             }
         }
     }
