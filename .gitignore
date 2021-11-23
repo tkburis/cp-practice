@@ -1,3 +1,8 @@
+# Ignore files without extensions
+*  # Ignore everything
+!*/  # Unignore directories
+!*.*  # Unignore files with ext
+
 .vscode
 useful_codes.txt
 
