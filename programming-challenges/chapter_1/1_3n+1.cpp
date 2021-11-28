@@ -1,8 +1,4 @@
-/*
-Programming Challenges (Skiena & Revilla) - 1.6.1 The 3n+1 Problem
-UVa ID: 100
-Status: Accepted
-*/
+// Programming Challenges (Skiena & Revilla) - 1.6.1 The 3n+1 Problem - UVa ID: 100
 
 #include <iostream>
 #include <unordered_map>

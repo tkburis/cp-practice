@@ -1,8 +1,4 @@
-/*
-Programming Challenges (Skiena & Revilla) - 1.6.2 Minesweeper
-UVa ID: 10189
-Status: Accepted
-*/
+// Programming Challenges (Skiena & Revilla) - 1.6.2 Minesweeper - UVa ID: 10189
 
 #include <iostream>
 #include <vector>
