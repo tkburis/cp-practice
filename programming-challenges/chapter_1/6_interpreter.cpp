@@ -5,13 +5,9 @@ using namespace std;
 
 int main()
 {
-    ifstream cin("input.txt");
     int t;
     cin >> t;
-    //getchar(); getchar();
-    string p;
-    getline(cin, p);
-    getline(cin, p);
+    cin.ignore(); cin.ignore();
     while (t--) {
         vector<int> registers(10, 0);
         vector<string> ram(1000, "");
