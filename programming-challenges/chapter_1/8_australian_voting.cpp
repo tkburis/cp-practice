@@ -66,7 +66,6 @@ void solve(vector<pair<string, bool>> names, vector<vector<int>> votes, bool las
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
     int t;
     scanf("%d ", &t);
     while (t--) {
