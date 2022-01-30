@@ -5,6 +5,9 @@
 
 .vscode
 useful_codes.txt
+grader.py
+input.txt
+output.txt
 
 # Prerequisites
 *.d
