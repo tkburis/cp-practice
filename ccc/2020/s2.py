@@ -1,7 +1,7 @@
-import sys
+# import sys
 
-sys.stdin = open('C:\\Users\\tkbur\\Desktop\\code\\cp-practice\\ccc\\2020\\input.txt', 'r')
-sys.stdout = open('C:\\Users\\tkbur\\Desktop\\code\\cp-practice\\ccc\\2020\\output.txt', 'w')
+# sys.stdin = open('C:\\Users\\tkbur\\Desktop\\code\\cp-practice\\ccc\\2020\\input.txt', 'r')
+# sys.stdout = open('C:\\Users\\tkbur\\Desktop\\code\\cp-practice\\ccc\\2020\\output.txt', 'w')
 
 m = int(input())
 n = int(input())
