@@ -26,8 +26,6 @@ int main()
     int need_plus = num_plus - already_plus, need_minus = num_minus - already_minus;
     if (need_plus < 0 || need_minus < 0) {
         cout << 0 << '\n';
-    } else if (need_plus == 0 && need_minus == 0) {
-        cout << 1 << '\n';
     } else {
         int qs = n - already_plus - already_minus;
         cout << setprecision(10) << (fact(qs) / (fact(need_plus) * fact(qs - need_plus))) / pow(2, qs) << '\n';
